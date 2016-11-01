@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border:0;
+  box-sizing: border-box;
+}
+
+html,body, #root,.appContainer{
+  height:100%;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+}
+
+
+/* footer start */
+
+.page-wrap {
+  min-height: 100%;
+  height: auto !important;
+  /* equal to footer height */
+  margin-bottom:-50px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height:50px;/*remember to change page-wrap margin bottom to same*/
+}
+.footer {
+   background: green;
+}
+/* footer end */
